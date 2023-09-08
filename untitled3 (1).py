@@ -87,7 +87,7 @@ if st.button("Predict"):
         st.subheader("Please enter a text for prediction.")
 
 
- import streamlit as st
+import streamlit as st
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from PIL import Image
